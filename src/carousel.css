@@ -1,0 +1,90 @@
+.carousel {
+  padding-top: 100px;
+  display: flex;
+  align-content: center;
+  margin: auto;
+}
+
+.image-slide-left,
+.image-slide-right {
+  display: flex;
+}
+
+.image-slide-left .card,
+.image-slide-right .card {
+  display: flex;
+  width: 180px;
+  height: 70%;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  opacity: 80%;
+  background-color: #404040;
+  filter: drop-shadow(3px 3px 3px #808080);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.image-slide-center .card {
+  width: 270px;
+  height: 300px;
+  margin: 0 20px;
+  background-color: white;
+  filter: drop-shadow(0px 3px 5px #808080);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.image-slide-left p,
+.image-slide-right p {
+  display: none;
+}
+
+.slide-arrow {
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  position: relative;
+  margin: auto 20px;
+}
+
+.slide-arrow.right {
+  float: right;
+  filter: drop-shadow(3px 3px 3px #808080);
+}
+
+.slide-arrow.left {
+  float: left;
+  filter: drop-shadow(3px 3px 3px #808080);
+}
+
+.image-slide-left .card h1,
+.image-slide-right .card h1 {
+  font-family: "Arial", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 25px;
+  margin: auto;
+}
+
+.image-slide-center h1 {
+  font-family: "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #404040;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.card p {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  color: 404040;
+  font-size: 17px;
+}
+
+@media (max-width: 992px) {
+  .image-slide-left,
+  .image-slide-right {
+    display: none;
+  }
+}

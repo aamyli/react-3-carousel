@@ -5,7 +5,7 @@ Title is previewed on left and right panels, full display shown on middle card.
 
 ### Preview
 
-![demo photo](https://github.com/aamyli/react-3-carousel/tree/master/src/carousel.JPG)
+![demo photo](carousel.JPG)
 
 ## Features
 
@@ -53,8 +53,8 @@ export default class InformationSet extends Component {
 
 # Basic CSS Changes
 
-currently can go into code files and change;
-full instructions coming soon.
+- to find the full CSS file, go to the repository/src/carousel.css
+- to override, can make your respective CSS file edits and add !important
 
 # License
 

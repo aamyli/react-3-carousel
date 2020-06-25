@@ -1,6 +1,6 @@
 {
   "name": "react-3-carousel",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "three panel carousel, showing only title previews on the left/right panels",
   "main": "./build/index.js",
   "scripts": {

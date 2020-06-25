@@ -55,7 +55,3 @@ export default class InformationSet extends Component {
 
 - to find the full CSS file, go to the repository/src/carousel.css
 - to override, can make your respective CSS file edits and add !important
-
-# License
-
-MIT

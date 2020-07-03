@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./carousel.css";
-import InfoCard from "./InfoCard.js";
 
 export default class Carousel extends Component {
   constructor(props) {
@@ -96,6 +95,17 @@ const Arrow = ({ direction, clickFunction, glyph }) =>
     },
     glyph
   );
+
+const InfoCard = (props) => {
+  return (
+    <div className={props.name}>
+      <div className="card">
+        <h1>{props.title}</h1>
+        <p>{props.desc}</p>
+      </div>
+    </div>
+  );
+};
 
 const ImageSlideLeft = ({ top, text }) => {
   return <InfoCard name="image-slide-left fadeIn" title={top} desc={text} />;

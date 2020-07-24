@@ -55,3 +55,27 @@ export default class InformationSet extends Component {
 
 - to find the full CSS file, go to the repository/src/carousel.css
 - to override, can make your respective CSS file edits and add !important
+- eg. to change background colour:
+
+```
+.image-slide-left .card,
+.image-slide-right .card {
+  background-color: #0e97b9e5 !important;
+}
+
+.image-slide-center .card {
+  background-color: white !important;
+}
+```
+
+![demo photo](colorchange.JPG)
+
+- to change font styles:
+
+```
+.image-slide-left .card h1,
+.image-slide-right .card h1
+
+.image-slide-center h1,
+.card p
+```
